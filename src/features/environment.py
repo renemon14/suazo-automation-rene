@@ -10,7 +10,7 @@ import logging, os
 def before_feature(self, feature):
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('--start-maximized')
-    self.driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(),
+    self.driver = webdriver.Chrome(executable_path="./drivers/chromedriver.exe",
                                    chrome_options=chrome_options)
 
 
