@@ -9,7 +9,6 @@ function = general_functions.General_Functions()
 
 @step('Accept cookies all')
 def step_impl(self):
-    function.load_driver()
     function.click_element(page_renfe_index.cookies)
     time.sleep(4)
 

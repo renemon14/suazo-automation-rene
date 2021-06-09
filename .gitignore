@@ -1,0 +1,11 @@
+.idea/misc.xml
+.idea/modules.xml
+.idea/suazo-automation-rene.iml
+.idea/workspace.xml
+screenshots/
+src/elements/__pycache__/
+src/features/__pycache__/
+src/features/steps/__pycache__/
+src/features/steps/steps_renfe/__pycache__/
+src/functions/__pycache__/
+src/screenshots/

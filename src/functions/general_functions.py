@@ -11,8 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 class General_Functions:
 
-    def load_driver(self):
-        self.driver = global_variable['driver']
+    driver = None
 
     def implicit_wait_visible(self, locator):
         try:
